@@ -1,0 +1,34 @@
+{
+  "name": "tillprochaska/kirby-localized-sitemap",
+  "description": "Generate XML sitemaps for localized websites.",
+  "license": "MIT",
+  "require-dev": {
+    "pestphp/pest": "^1.21",
+    "getkirby/cms": "3.6.1.1",
+    "friendsofphp/php-cs-fixer": "^3.3"
+  },
+  "authors": [
+    {
+      "name": "Till Prochaska",
+      "email": "mail@tillprochaska.de"
+    }
+  ],
+  "scripts": {
+    "test": "pest --coverage",
+    "cs": "php-cs-fixer fix --dry-run --config=.php-cs -- src/ tests/",
+    "cs:fix": "php-cs-fixer fix --config=.php-cs -- src/ tests/"
+  },
+  "autoload": {
+    "psr-4": {
+      "TillProchaska\\KirbyLocalizedSitemap\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TillProchaska\\KirbyLocalizedSitemap\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "kirby-cms-path": false
+  }
+}
