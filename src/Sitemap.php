@@ -36,7 +36,8 @@ class Sitemap
     {
         $url = $this->xml->createElement('url');
 
-        $loc = $this->xml->createElement('loc', $page->url());
+        $pageUrl = is_string($page->canonicalUrl()) ? $page->canonicalUrl() : $page->url();
+        $loc = $this->xml->createElement('loc', $pageUrl);
         $lastmod = $this->xml->createElement('lastmod', $page->modified('Y-m-d'));
 
         $url->appendChild($loc);
