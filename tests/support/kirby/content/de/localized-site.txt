@@ -1,0 +1,5 @@
+Title: Deutsch
+
+----
+
+Locale: de_DE
