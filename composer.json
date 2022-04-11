@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "php": "^8",
+    "php": ">=8.1",
     "getkirby/cms": "^3.6",
     "tillprochaska/kirby-localizations": "dev-main"
   },

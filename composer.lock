@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b9586d52a667c559c0b7b21686e4321",
+    "content-hash": "30c631806fb221e633e6a192bdd40be7",
     "packages": [
         {
             "name": "claviska/simpleimage",
@@ -816,12 +816,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:tillprochaska/kirby-localizations.git",
-                "reference": "d6a3768cf1c1f2dc251ed283cc1888f1173016a6"
+                "reference": "74432b61c208469b9137a13231591ffa53ee673d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tillprochaska/kirby-localizations/zipball/d6a3768cf1c1f2dc251ed283cc1888f1173016a6",
-                "reference": "d6a3768cf1c1f2dc251ed283cc1888f1173016a6",
+                "url": "https://api.github.com/repos/tillprochaska/kirby-localizations/zipball/74432b61c208469b9137a13231591ffa53ee673d",
+                "reference": "74432b61c208469b9137a13231591ffa53ee673d",
                 "shasum": ""
             },
             "require": {
@@ -875,7 +875,7 @@
                 "source": "https://github.com/tillprochaska/kirby-localizations/tree/main",
                 "issues": "https://github.com/tillprochaska/kirby-localizations/issues"
             },
-            "time": "2022-04-04T10:31:09+00:00"
+            "time": "2022-04-11T10:34:55+00:00"
         }
     ],
     "packages-dev": [
@@ -2574,12 +2574,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "523f111275d323f5811f0ef59320887e334197e1"
+                "reference": "66d3ef0baef2f6aa5f385bc01fa447a352bd8966"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/523f111275d323f5811f0ef59320887e334197e1",
-                "reference": "523f111275d323f5811f0ef59320887e334197e1",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/66d3ef0baef2f6aa5f385bc01fa447a352bd8966",
+                "reference": "66d3ef0baef2f6aa5f385bc01fa447a352bd8966",
                 "shasum": ""
             },
             "require": {
@@ -2669,7 +2669,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-04-11T06:12:07+00:00"
+            "time": "2022-04-11T14:15:27+00:00"
         },
         {
             "name": "psr/cache",
@@ -3633,16 +3633,16 @@
         },
         {
             "name": "sebastian/resource-operations",
-            "version": "dev-master",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/resource-operations.git",
-                "reference": "0f4443cb3a1d92ce809899753bc0d5d5a8dd19a8"
+                "reference": "0bb681ab112cdcd15dc71ea4ed7fb78e7060828b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/resource-operations/zipball/0f4443cb3a1d92ce809899753bc0d5d5a8dd19a8",
-                "reference": "0f4443cb3a1d92ce809899753bc0d5d5a8dd19a8",
+                "url": "https://api.github.com/repos/sebastianbergmann/resource-operations/zipball/0bb681ab112cdcd15dc71ea4ed7fb78e7060828b",
+                "reference": "0bb681ab112cdcd15dc71ea4ed7fb78e7060828b",
                 "shasum": ""
             },
             "require": {
@@ -3655,7 +3655,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-main": "3.0-dev"
                 }
             },
             "autoload": {
@@ -3676,7 +3676,7 @@
             "description": "Provides a list of PHP built-in functions that operate on resources",
             "homepage": "https://www.github.com/sebastianbergmann/resource-operations",
             "support": {
-                "source": "https://github.com/sebastianbergmann/resource-operations/tree/3.0.3"
+                "source": "https://github.com/sebastianbergmann/resource-operations/tree/main"
             },
             "funding": [
                 {
@@ -3684,7 +3684,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-09-28T06:45:17+00:00"
+            "time": "2022-04-11T13:39:05+00:00"
         },
         {
             "name": "sebastian/type",
@@ -5187,7 +5187,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8"
+        "php": ">=8.1"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
