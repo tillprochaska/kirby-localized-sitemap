@@ -2,17 +2,31 @@
   "name": "tillprochaska/kirby-localized-sitemap",
   "description": "Generate XML sitemaps for localized websites.",
   "license": "MIT",
-  "require": {
-    "getkirby/cms": "^3.6"
-  },
-  "require-dev": {
-    "pestphp/pest": "^1.21",
-    "friendsofphp/php-cs-fixer": "^3.3"
-  },
+  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Till Prochaska",
       "email": "mail@tillprochaska.de"
+    }
+  ],
+  "require": {
+    "php": "^8",
+    "getkirby/cms": "^3.6",
+    "tillprochaska/kirby-localizations": "dev-main"
+  },
+  "require-dev": {
+    "tillprochaska/kirby-test-utils": "dev-main",
+    "pestphp/pest": "^1.21",
+    "friendsofphp/php-cs-fixer": "^3.3"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/tillprochaska/kirby-test-utils"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/tillprochaska/kirby-localizations"
     }
   ],
   "scripts": {
